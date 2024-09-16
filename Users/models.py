@@ -5,7 +5,7 @@ from django.conf import settings
 
 class CustomUserManager(UserManager):
     id = models.AutoField(primary_key=True)
-    firstname = models.CharField(max_length=50)
+    first_name = models.CharField(max_length=50)
     lastname = models.CharField(max_length=50)
     email = models.EmailField(unique=True)
    
