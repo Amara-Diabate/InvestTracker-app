@@ -15,8 +15,8 @@ class Migration(migrations.Migration):
             name='User',
             fields=[
                 ('id', models.AutoField(primary_key=True, serialize=False)),
-                ('firstname', models.CharField(max_length=50)),
-                ('lastname', models.CharField(max_length=50)),
+                ('first_name', models.CharField(max_length=225)),
+                ('lastname', models.CharField(max_length=550)),
                 ('email', models.EmailField(max_length=254, unique=True)),
             ],
         ),
