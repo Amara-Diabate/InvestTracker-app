@@ -11,8 +11,8 @@
         <p>Êtes-vous sûr de vouloir supprimer l'entreprise "{{ corporate.name }}" ?</p>
         <form method="post">
             {% csrf_token %}
-            <button type="submit" class="btn btn-danger">Supprimer88</button>
-            <a href="{% url 'corporate-list' %}" class="btn btn-secondary">Cancel55</a>
+            <button type="submit" class="btn btn-danger">Supprimer</button>
+            <a href="{% url 'corporate-list' %}" class="btn btn-secondary">Cancel</a>
         </form>
         
     </div>
